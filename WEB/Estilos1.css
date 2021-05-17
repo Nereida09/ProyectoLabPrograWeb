@@ -1,0 +1,131 @@
+body{
+    background-color: #0f071b;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23f96700' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    color: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:cornsilk;
+    text-decoration: none;
+
+}
+ul {
+    list-style: none;
+}
+.Contenedor{
+    width: 90%;
+    margin: auto;
+}
+.Principal{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px 0;
+}
+.imag{
+    width: 50px;
+}
+.Derecha{
+    width: 45px;
+}
+.Principal ul{
+    display: flex;
+}
+.Principal ul li{
+    padding: 50px;
+}
+.Principal ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+.Principal ul.Menu{
+    flex: 2;
+    margin-left: 15px;
+}
+.Creador{
+    width: 100%;
+    font-size: 20px;
+    flex-direction: column;
+    margin: 10px 0;
+    align-items: center;
+    display: flex;
+}
+
+.Tabla{
+    border: 5px solid #fff; 
+    border-collapse: collapse; 
+}
+.Tabla td{
+    border: 5px solid #fff;
+    margin: 10px;
+    padding: 10px;
+}
+.Tabla td:hover{
+    background: rgba(96, 196, 14, 0.87);
+}
+.Tabla tr:hover{
+    background: rgba(2, 234, 241, 0.801);
+}
+.Creador1{
+    width: 60px;
+    display: flex;
+    margin: auto;
+}
+@media (max-width: 700px){
+    .Principal ul li{
+        padding: 15px;
+        font-size: 10px;
+    }
+    .Derecha{
+        margin: 0 -20px;
+    }
+}
+.footer-link{
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 36px 0;
+}
+.footer-link h3{
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px 0;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-container ul{
+    margin: 0 auto;
+}
+.footer-container ul li{
+    line-height: 1.9;
+}
+.footer{
+    background: #2f3640;
+    color: darkgray;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+@media (max-width: 500px){
+
+    .Principal ul li{
+        padding: 10px;
+        font-size: 8px;
+    }
+    .Derecha{
+        margin: 0 -30px;
+    }
+}
